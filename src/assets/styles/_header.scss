@@ -1,0 +1,30 @@
+.header-container {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: $header-height;
+  z-index: 5;
+  display: flex;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,.15);
+  padding: 6px 0;
+  .title {
+    display: block;
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+  }
+ .button {
+   z-index: 1;
+   padding: 0 10px;
+   font-size: 32px;
+   line-height: 36px;
+  }
+}

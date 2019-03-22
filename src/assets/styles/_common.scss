@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-tap-highlight-color: transparent; // 去点击高亮
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: $dark;
+  font-family: $font-family;
+}
+[v-cloak] {
+  display: none;
+}
+input, textarea {
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+html, body, #app {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  line-height: 20px;
+  background-color: $default-page-bg;
+}

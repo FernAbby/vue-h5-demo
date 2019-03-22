@@ -18,7 +18,6 @@ exports.cssLoaders = function (options) {
   const cssLoader = {
     loader: 'css-loader',
     options: {
-      minimize: process.env.NODE_ENV === 'production',
       sourceMap: options.sourceMap
     }
   }
@@ -26,9 +25,12 @@ exports.cssLoaders = function (options) {
   const px2remLoader = {
     loader: 'px2rem-loader',
     options: {
-      remUint: 75
+      // remUnit: 75,
+      remUnit: 37.5,
+      remPrecision: 8
     }
   }
+
   const postcssLoader = {
     loader: 'postcss-loader',
     options: {
