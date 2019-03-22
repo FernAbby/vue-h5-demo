@@ -1,5 +1,5 @@
 <template>
-  <div id="amans-app">
+  <div amans-app>
     <transition name="page" v-on:before-enter="beforePageEnter">
       <router-view></router-view>
     </transition>

@@ -8,7 +8,7 @@
   display: flex;
   background: #fff;
   box-shadow: 0 0 10px rgba(0,0,0,.15);
-  padding: 6px 0;
+  padding: 5px 0;
   .title {
     display: block;
     flex: 1;
@@ -19,12 +19,12 @@
     text-overflow: ellipsis;
     font-size: 18px;
     font-weight: 400;
-    line-height: 36px;
+    line-height: 34px;
   }
  .button {
    z-index: 1;
    padding: 0 10px;
    font-size: 32px;
-   line-height: 36px;
+   line-height: 34px;
   }
 }

@@ -1,7 +1,7 @@
 <template>
   <div class="page has-header has-navbar">
     <Header
-      title="Home"
+      title="About"
     />
     <section class="page-content">
       <div class="test">{{msg}}</div>
@@ -19,14 +19,14 @@
       return {
         pageSetting: {
           headerBar: {
-            title: 'Home',
+            title: 'About',
             showBack: true
           },
           navBar: {
 
           }
         },
-        msg: 'Welcome to Your Home Page'
+        msg: 'Welcome to Your Mine Page'
       }
     },
     components: {
